@@ -46,7 +46,9 @@ public class AppConfig {
 				CorsConfiguration cfg=new CorsConfiguration();
 				cfg.setAllowedOrigins(Arrays.asList(
 						"http://localhost:3000/",
-						"https://shabab-social.vercel.app/"
+						"https://shabab-social.vercel.app/",
+						"https://social-media1-swart.vercel.app",
+						"https://social-media1-qxejr3rnh-shababkabab.vercel.app/"
 						));
 				cfg.setAllowedMethods(Collections.singletonList("*"));
 				cfg.setAllowCredentials(true);
